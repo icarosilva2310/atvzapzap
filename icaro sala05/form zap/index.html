@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Zap</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="topo">
+            <img src="../form zap/icons/zap.webp" alt="WhatsApp">
+            <h2>Empresa</h2>
+        </div>
+
+        <div class="mensagem">
+            <p>
+                Olá! Insira seus dados para ser direcionado para o WhatsApp:
+            </p>
+        </div>
+
+        <div class="campo">
+            <label>Seu nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+        </div>
+
+        <div class="campo">
+            <label>Seu e-mail</label>
+            <input type="email" id="email" placeholder="example@email.com">
+        </div>
+
+        <div class="campo">
+            <label>Seu WhatsApp</label>
+            <input type="text" id="whatsapp" placeholder="+55 (88) 98888-8888">
+        </div>
+
+        <button onclick="enviarWhats()">
+            Ir para o WhatsApp
+        </button>
+
+        <span class="rodape">Powered by Agendor</span>
+
+    </div>
+
+    <script src="src/script.js"></script>
+
+</body>
+</html>

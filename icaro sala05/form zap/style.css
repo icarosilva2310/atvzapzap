@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 320px;
+    background-color: #f1ece5;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.topo{
+    background-color: #0c8f5a;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.topo img{
+    width: 25px;
+}
+
+.mensagem{
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+.campo{
+    margin: 15px 20px;
+}
+
+.campo label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.campo input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+}
+
+button{
+    width: 87%;
+    margin: 20px;
+    padding: 14px;
+    background-color: #0c8f5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #08774a;
+}
+
+.rodape{
+    display: block;
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+}
